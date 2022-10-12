@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3dormitorylandingstorage",
+  "bucketName": "dormitory-landing-storage",
+  "policyUUID": "3b121c08",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "READ",
+    "DELETE",
+    "CREATE_AND_UPDATE"
+  ]
+}

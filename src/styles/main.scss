@@ -1,0 +1,21 @@
+@import "./vendors/vendors";
+
+@import "./abstracts/abstracts";
+
+@import "./base/base";
+
+@import "./classes/classes";
+
+@import "./layout/layout";
+
+@import "./pages/pages";
+
+@import "./components/components";
+
+.demo {
+  color: black !important;
+
+  &-active {
+    color: red !important;
+  }
+}

@@ -1,0 +1,20 @@
+$textAligns: (left, center, right);
+
+@each $val in $textAligns {
+  .cs-text-#{$val} {
+    text-align: $val;
+  }
+}
+
+.cs-fs-i {
+  font-style: italic;
+}
+
+.cs-text-link {
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
