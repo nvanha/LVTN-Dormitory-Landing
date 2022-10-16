@@ -1,3 +1,4 @@
 import ButtonCustom from './ButtonCustom';
+import { InputText, InputPassword } from './InputCustom';
 
-export { ButtonCustom };
+export { ButtonCustom, InputText, InputPassword };

@@ -1,6 +1,6 @@
 import { Container } from 'react-bootstrap';
 
-const Contact = () => (
+const ContactSection = () => (
   <section id="lien-he" className="contact">
     <Container className="p-0">
       <div className="contact--inner flex-start-start" style={{ gap: '30px' }}>
@@ -115,4 +115,4 @@ const Contact = () => (
   </section>
 );
 
-export default Contact;
+export default ContactSection;

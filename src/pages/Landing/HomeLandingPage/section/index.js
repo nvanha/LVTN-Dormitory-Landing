@@ -1,10 +1,9 @@
-import Header from './Header';
-import Home from './Home';
-import About from './About';
-import Details from './Details';
-import Contact from './Contact';
-import Summarize from './Summarize';
+import Home from './HomeSection';
+import About from './AboutSection';
+import Details from './DetailsSection';
+import Contact from './ContactSection';
+import Summarize from './SummarizeSection';
 
 export {
-  Header, Home, About, Details, Contact, Summarize,
+  Home, About, Details, Contact, Summarize,
 };

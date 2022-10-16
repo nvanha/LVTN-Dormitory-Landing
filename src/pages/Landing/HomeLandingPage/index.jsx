@@ -1,5 +1,6 @@
+import Header from './components/Header';
 import {
-  About, Contact, Details, Header, Home, Summarize,
+  About, Contact, Details, Home, Summarize,
 } from './section';
 
 const HomeLandingPage = () => (

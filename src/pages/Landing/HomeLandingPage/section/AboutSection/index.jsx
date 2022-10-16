@@ -3,18 +3,12 @@ import { Container } from 'react-bootstrap';
 import { ReactComponent as AboutImage1 } from '~/assets/about/Image1.svg';
 import { ReactComponent as AboutImage2 } from '~/assets/about/Image2.svg';
 import { ReactComponent as AboutImage3 } from '~/assets/about/Image3.svg';
+import SectionTitle from '../../components/SectionTitle';
 
-const About = () => (
+const AboutSection = () => (
   <section id="gioi-thieu" className="about">
     <Container className="p-0">
-      <h2
-        className="section-title"
-        data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration={700}
-      >
-        <span>Giới thiệu</span> về Ký túc xá
-      </h2>
+      <SectionTitle bold="Giới thiệu" content="về Ký túc xá" />
       <div className="about--inner flex-center-space">
         <div className="about--item">
           <h3
@@ -173,4 +167,4 @@ const About = () => (
   </section>
 );
 
-export default About;
+export default AboutSection;

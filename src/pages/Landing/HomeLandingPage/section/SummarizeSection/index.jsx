@@ -1,19 +1,12 @@
-import React from 'react';
 import { Container } from 'react-bootstrap';
 
 import LogoURL from '~/assets/summarize/Image1.png';
+import SectionTitle from '../../components/SectionTitle';
 
-const Summarize = () => (
+const SummarizeSection = () => (
   <section id="tong-quat" className="summarize">
     <Container className="p-0">
-      <h2
-        className="section-title"
-        data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration={700}
-      >
-        <span>Tổng quát</span> về Ký túc xá
-      </h2>
+      <SectionTitle bold="Tổng quát" content="về Ký túc xá" />
       <div className="summarize--inner flex-stretch-space">
         <div
           className="image"
@@ -48,4 +41,4 @@ const Summarize = () => (
   </section>
 );
 
-export default Summarize;
+export default SummarizeSection;
