@@ -1,7 +1,0 @@
-$fontWeights: (300, 400, 500, 600, 700, 800, 900);
-
-@each $val in $fontWeights {
-  .cs-fw-#{$val} {
-    font-weight: $val;
-  }
-}
